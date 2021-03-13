@@ -9,8 +9,6 @@ import streamlit as st
 
 pickle_in = open('model.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
-pickle_in = open('model.pkl', 'rb') 
-classifier = pickle.load(pickle_in)
 
 @st.cache
 def prediction(residualsugar, freesulfurdioxide, chlorides, volatileacidity,alcohol):   
