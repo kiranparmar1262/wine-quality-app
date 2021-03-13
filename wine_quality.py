@@ -1,10 +1,5 @@
 import pickle
 
-pickle_out = open("model.pkl", mode = "wb") 
-pickle.dump(model, pickle_out) 
-pickle_out.close()
-
-
 import streamlit as st
 
 pickle_in = open('model.pkl', 'rb') 
