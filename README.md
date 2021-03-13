@@ -1,2 +1,2 @@
 # wine-quality-app
-web app(https://my-project-ml-app.herokuapp.com/)
+[web app](https://my-project-ml-app.herokuapp.com/)
