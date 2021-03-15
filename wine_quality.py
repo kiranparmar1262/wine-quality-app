@@ -28,6 +28,7 @@ def main():
   padding: 14px">
     <h1 style ="color:white;text-align:center;">Wine Quality Prediction App</h1> 
     </div> 
+    <br/>
     """
     
     page_bg_img = '''
