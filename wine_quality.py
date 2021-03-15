@@ -35,7 +35,7 @@ def main():
     <style>
     body {
     
-    background-image: url("https://image.freepik.com/free-photo/abstract-black-white-bokeh-background_1962-1324.jpg");
+    background-image: url("");
     background-size: cover;
     }
     </style>
@@ -60,7 +60,7 @@ def main():
     # when 'Predict' is clicked, make the prediction and store it 
     if st.button("Predict"):
         result = prediction(residualsugar, freesulfurdioxide, chlorides, volatileacidity,alcohol)
-        st.success('Winew Quality is {}'.format(result))
+        st.success('Wine Quality is {}'.format(result))
      
 if __name__=='__main__': 
     main()
